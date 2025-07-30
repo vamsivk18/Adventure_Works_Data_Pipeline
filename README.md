@@ -14,7 +14,7 @@ API Source → ADF (Ingestion) → ADLS Gen2 (Bronze)
           → Databricks (PySpark Transformations) → ADLS Gen2 (Silver)
           → Synapse External Tables (Gold) → Power BI (Reporting)
 ```
-
+> 📸 ![System Architecture](images/Data_Architecture.drawio.png)
 
 ---
 
