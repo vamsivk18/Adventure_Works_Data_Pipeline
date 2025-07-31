@@ -75,10 +75,10 @@ This project uses the **AdventureWorks** [dataset](https://www.kaggle.com/datase
 
 ```
 /data-pipeline-project/
-├── notebooks/            # PySpark notebooks
-├── adf-pipeline/         # JSON pipeline exports from ADF
+├── datasets/             # CSV files from API
+├── images/               # Architecture and Data Model
+├── powerbi/              # Power BI .pbix file and screenshots
 ├── synapse/              # SQL scripts for external tables, queries
-├── powerbi/              # Power BI .pbix file or screenshots
 └── README.md             # This file
 ```
 
@@ -97,27 +97,13 @@ This project uses the **AdventureWorks** [dataset](https://www.kaggle.com/datase
 
 ---
 
-## 📘 g) How to Run
+## g) Data Model
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/data-pipeline-project.git
-   ```
+📸 ![Data Model](images/Data_Model.png)
 
-2. Launch Databricks and import notebooks from `notebooks/`.
+## h) Visualizations
 
-3. Set up ADF pipeline (exported JSON or recreate from steps).
-
-4. Create Synapse external tables using scripts in `/synapse`.
-
-5. Connect Power BI to Synapse and build dashboards.
-
----
-
-## ✅ Status
-
-✔️ Project complete and ready for demo / interview use.  
-📅 Last updated: **July 2025**
+📸 ![Visualizations](powerbi/visualization.png)
 
 
 
