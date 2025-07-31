@@ -103,7 +103,7 @@ This project uses the **AdventureWorks** [dataset](https://www.kaggle.com/datase
 
 ## h) Visualizations
 
-📸 ![Visualizations](powerbi/visualization.png)
+📸 ![Visualizations](powerbi/Visualization.png)
 
 
 
